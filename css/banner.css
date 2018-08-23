@@ -1,0 +1,95 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}/*banner开始*/
+.banner{
+    width: 1226px;
+    height: 460px;
+    /*background: orange;*/
+    margin: 200px auto;
+    position: relative;
+}
+.banner .imgBox1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.banner .imgBox1 li{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 1226px;
+
+}
+.banner .imgBox1 li:nth-child(1){
+    left: 0;
+}
+.banner .imgBox1 li a img{
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+.banner .circleBtn{
+    width: 90px;
+    height: 10px;
+    position: absolute;
+    right: 35px;
+    bottom: 25px;
+    z-index: 100;
+}
+.banner .circleBtn div{
+    width: 6px;
+    height: 6px;
+    background: #92897c;
+    border-radius: 50%;
+    border: 2px solid #b3ada4;
+    float: left;
+    margin-right: 10px;
+}
+.banner .circleBtn div:hover{
+    background: #f8efe2;
+}
+.banner .circleBtn .hot{
+    background: white;
+}
+.banner .circleBtn div:nth-child(5){
+    margin-right: 0;
+}
+.banner .leftBtn{
+    width: 41px;
+    height: 69px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    background-image: url("../img/jiantou.png");
+    background-position: -84px 0;
+    z-index: 100;
+}
+.banner .leftBtn:hover{
+    background-position: 0 0;
+}
+.banner .rightBtn{
+    width: 41px;
+    height: 69px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    background-image: url("../img/jiantou.png");
+    background-position: -125px 0;
+    z-index: 100;
+}
+.banner .rightBtn:hover{
+    background-position: -42px 0;
+}
